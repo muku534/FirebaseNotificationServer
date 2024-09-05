@@ -1,0 +1,46 @@
+{
+  "name": "firebasenotificationserver",
+  "version": "1.0.0",
+  "description": "FirebaseNotificationServer is a Node.js-based backend service designed to handle and send push notifications using Firebase Cloud Messaging (FCM). This server integrates with Firebase Admin SDK to deliver targeted notifications to users of a React Native application. It enables real-time communication and alerts by sending notifications based on specific events, such as user actions within the app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muku534/FirebaseNotificationServer.git"
+  },
+  "keywords": [
+    "Firebase",
+    "FCM(Firebase",
+    "Cloud",
+    "Messaging)",
+    "Node",
+    "Notifications",
+    "Express",
+    "Backend",
+    "Admin",
+    "SDK",
+    "Push",
+    "Notifications",
+    "React",
+    "Native",
+    "Notification",
+    "Service",
+    "API",
+    "Messaging",
+    "Server"
+  ],
+  "author": "Mukesh Prajapati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muku534/FirebaseNotificationServer/issues"
+  },
+  "homepage": "https://github.com/muku534/FirebaseNotificationServer#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.4.0",
+    "nodemon": "^3.1.4"
+  }
+}
