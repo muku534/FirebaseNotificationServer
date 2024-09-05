@@ -41,6 +41,7 @@ npm-debug.log
 yarn-error.log
 
 .env
+.env.local
 android/app/google-services.json
 android/app/release
 key_store.jks
@@ -57,6 +58,8 @@ coverage
 **/fastlane/Preview.html
 **/fastlane/screenshots
 **/fastlane/test_output
+
+serviceAccountKey.json
 
 # Bundle artifact
 *.jsbundle
